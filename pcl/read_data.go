@@ -46,5 +46,5 @@ func LoadPCDFile(path string) *PCD {
 }
 
 func Hello() {
-	println("Hello")
+	println("Hello, v1.0.2")
 }
