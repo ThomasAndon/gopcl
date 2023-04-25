@@ -2,6 +2,7 @@ package pcl
 
 import (
 	"bufio"
+	"fmt"
 	"os"
 )
 
@@ -38,8 +39,11 @@ func LoadPCDFile(path string) *PCD {
 	defer file.Close()
 	// for read each line
 	scanner := bufio.NewScanner(file)
-	// for read each word
+	// for read each line
 	scanner.Split(bufio.ScanLines)
+	for scanner.Scan() {
+		fmt.Println(scanner.Text())
+	}
 
 	return nil
 

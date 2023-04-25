@@ -1,9 +1,7 @@
 package main
 
-import "github.com/ThomasAndon/gopcl/pcl"
+import "github.com/ta/gopcl/pcl"
 
 func main() {
-	pcl.Hello()
-	pcl.Hello()
-	pcl.Hello()
+	pcl.LoadPCDFile("./etc/9.pcd")
 }
