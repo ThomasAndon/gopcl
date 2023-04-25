@@ -7,4 +7,5 @@ import (
 func main() {
 	pcl.Hello()
 	pcl.Hello()
+	pcl.Hello()
 }
