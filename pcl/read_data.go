@@ -171,7 +171,3 @@ func (p *PCD) updateData(s *bufio.Scanner) {
 
 	}
 }
-
-func Hello() {
-	println("Hello, v1.0.2")
-}
