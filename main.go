@@ -1,12 +1,8 @@
 package main
 
-import (
-	"github.com/gopcl/gopcl/pcl"
-)
+import "github.com/gopcl/gopcl/pcl"
 
 func main() {
-	pcl.Hello()
-	pcl.Hello()
 	pcl.Hello()
 	pcl.Hello()
 }
