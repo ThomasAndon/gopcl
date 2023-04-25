@@ -1,3 +1,3 @@
-module github.com/ThomasAndon/gopcl
+module github.com/gopcl
 
 go 1.19
